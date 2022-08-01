@@ -1,0 +1,7 @@
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.csproj.AssemblyReference.cache
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.AssemblyInfoInputs.cache
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.AssemblyInfo.cs
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.csproj.CoreCompileInputs.cache
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.MvcApplicationPartsAssemblyInfo.cs
+/Users/anilduz/Desktop/Pratikler/WEBAPI1/Hello/obj/Debug/net5.0/Hello.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{FFAEDCE9-42A3-4E9E-B958-C0CDEB9DBD05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookStoreWebApi/Startup.cs">
+    <Files>
+      <File FileName="BookStoreWebApi/Startup.cs" Line="57" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookStoreWebApi" expanded="True">
+            <Node name="BookStoreWebApi" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BookStoreWebApi FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
