@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Controllers\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="DbOperations\" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="BookOperations\" />
+    <None Remove="BookOperations\GetBooks\" />
+    <None Remove="Commen\" />
+    <None Remove="BookOperations\CreateBook\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="DbOperations\" />
+    <Folder Include="BookOperations\" />
+    <Folder Include="BookOperations\GetBooks\" />
+    <Folder Include="Commen\" />
+    <Folder Include="BookOperations\CreateBook\" />
+  </ItemGroup>
+</Project>
