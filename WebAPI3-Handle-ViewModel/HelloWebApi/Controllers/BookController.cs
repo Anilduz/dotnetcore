@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HelloWebApi.BookOperations.CreateBook;
 using HelloWebApi.BookOperations.GetBooks;
+using HelloWebApi.BookOperations.GetBooksQueryDetail;
 using HelloWebApi.DbOperations;
 using Microsoft.AspNetCore.Mvc;
 using static HelloWebApi.BookOperations.CreateBook.CreateBooksCommand;
@@ -56,10 +57,24 @@ namespace HelloWebApi.AddControllers
         } 
 
         [HttpGet("{id}")]
-        public Book GetById(int id)
+        public IActionResult GetById(int id)
         {
-            var book = _context.Books.Where(x => x.Id == id).SingleOrDefault();
-            return book;
+            BookDetailViewModel result;
+            try
+            {
+                GetBookQueryDetail query = new GetBookQueryDetail(_context);
+                query.BookId = id;
+                result = query.Handle();
+               
+
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+            return Ok(result);
         }
 
         /*[HttpGet]

@@ -15,6 +15,7 @@
     <None Remove="BookOperations\GetBooks\" />
     <None Remove="Commen\" />
     <None Remove="BookOperations\CreateBook\" />
+    <None Remove="BookOperations\GetBooksQueryDetail\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
@@ -28,5 +29,6 @@
     <Folder Include="BookOperations\GetBooks\" />
     <Folder Include="Commen\" />
     <Folder Include="BookOperations\CreateBook\" />
+    <Folder Include="BookOperations\GetBooksQueryDetail\" />
   </ItemGroup>
 </Project>
